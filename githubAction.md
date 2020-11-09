@@ -32,7 +32,7 @@
     pt_key=eeeeeeeee;pt_pin=ffffffff;
     ```
   - 京东cookie获取看这里
-    - [浏览器获取京东cookie教程](https://github.com/lxk0301/scripts/blob/master/backUp/GetJdCookie.md) 或者 [插件获取京东cookie教程](https://github.com/lxk0301/scripts/blob/master/backUp/GetJdCookie2.md)
+  - [浏览器获取京东cookie教程](https://github.com/DoveBoy/scripts-JD/blob/master/backUp/GetJdCookie.md) 或者 [插件获取京东cookie教程](https://github.com/DoveBoy/scripts-JD/blob/master/backUp/GetJdCookie2.md)
     - IOS代理软件(Surge, Quantumult X, Loon)等用户有使用过BoxJs的,可在BoxJs里面提取京东cookie(打开BoxJs -> 底部中间的 `应用` -> NobyDa脚本订阅 -> 京东(多合一签到) -> 点击会话右上方的三个点点 -> 修改会话 -> 全选复制即可)，再不会看此[图文教程](icon/jd8.png)
     
     
@@ -48,9 +48,9 @@
 
 #### 如何查看Action运行情况
 
-   - [查看运行状态](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/action1.png)
+   - [查看运行状态](https://raw.githubusercontent.com/DoveBoy/scripts-JD/master/icon/action1.png)
     
-   - [查看运行日志](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/action2.png)  
+   - [查看运行日志](https://raw.githubusercontent.com/DoveBoy/scripts-JD/master/icon/action2.png)  
 
 
 
@@ -75,7 +75,7 @@
 
   - 方案A - 强制远程分支覆盖自己的分支(**新手推荐使用**)
   
-      1. 参考tg@wukongdada这篇教程 [保持自己github的forks自动和上游仓库同步的教程](https://github.com/lxk0301/scripts/blob/master/backUp/gitSync.md) ， 安装[pull插件](https://github.com/apps/pull) 并确认此项目已在pull插件的作用下（参考@twukongdada这篇教程文中1-d）
+      1. 参考tg@wukongdada这篇教程 [保持自己github的forks自动和上游仓库同步的教程](https://github.com/DoveBoy/scripts-JD/blob/master/backUp/gitSync.md) ， 安装[pull插件](https://github.com/apps/pull) 并确认此项目已在pull插件的作用下（参考@twukongdada这篇教程文中1-d）
       
       2. 确保.github/pull.yml文件正常存在，yml内上游作者填写正确(此项目已填好，无需更改)。
       
@@ -96,7 +96,7 @@
     > 上游变动后pull插件会自动发起pr，但如果有冲突需要自行**手动**确认。
     > 如果上游更新涉及workflow里的文件内容改动，需要自行**手动**确认。
     
-    1. 参考tg@wukongdada这篇教程 [保持自己github的forks自动和上游仓库同步的教程](https://github.com/lxk0301/scripts/blob/master/backUp/gitSync.md) ， 安装[pull插件](https://github.com/apps/pull) 并确认此项目已在pull插件的作用下（参考@twukongdada这篇教程文中1-d）
+    1. 参考tg@wukongdada这篇教程 [保持自己github的forks自动和上游仓库同步的教程](https://github.com/DoveBoy/scripts-JD/blob/master/backUp/gitSync.md) ， 安装[pull插件](https://github.com/apps/pull) 并确认此项目已在pull插件的作用下（参考@twukongdada这篇教程文中1-d）
     2. 确保.github/pull.yml文件正常存在，yml内上游作者填写正确(此项目已填好，无需更改)。
     3. 将pull.yml里面的`mergeMethod: hardreset`修改为`mergeMethod: merge`保存。
     4. ENJOY!上游更改三小时左右就会自动发起同步。
